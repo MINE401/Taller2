@@ -19,6 +19,7 @@ Se recomienda a HabitAlpes **implementar el modelo de predicción (Random Forest
 * **Segmentación de Lujo:** Los inmuebles con valor superior a **$2.800 millones** (aprox. 8% de la cartera) deben seguir siendo avaluados manualmente por expertos, dado su alto valor y particularidades.
 * **Automatización Inteligente:** Recomendamos desplegar el modelo para el segmento estándar, donde el algoritmo demuestra alta fiabilidad. Esto nos permite automatizar aproximadamente el **63% del volumen total** de solicitudes de manera segura.
 * **Gestión de Riesgo:** Aquellos casos donde el modelo detecte alta incertidumbre o diferencias críticas de precio serán derivados automáticamente a revisión humana, evitando reclamos por subestimación.
+* **Gobierno de datos:** ⁠Los resultados obtenidos subrayan la necesidad de continuar fortaleciendo la gestión de los datos, ya que la presencia de valores atípicos tiene un efecto directo sobre la estabilidad del modelo y su capacidad para reducir costos operativos.
 
 **Soporte a las recomendaciones**
 
@@ -45,6 +46,7 @@ Tras evaluar múltiples algoritmos de predicción, hemos determinado que el mode
 
 * **Precisión:** El modelo logra explicar el **81.71% (R²)** de la variabilidad en los precios del mercado, un estándar alto para el sector inmobiliario.
 * **Criterio Experto:** Confirmamos que el modelo "razona" de manera similar a un perito humano (Analisis Shapley y LIME). Las variables que más pesan en su decisión son, en orden: área construida, número de baños, ubicación geoespacial y estrato, pero, adicionalmente, también logra cuantificar pequeñas variables relevantes en el precio final como son sí el inmueble es nuevo, pertenece a un conjunto cerrado, entre otras. Esto garantiza que las valoraciones automáticas sigan una lógica de mercado coherente.
+* **Puntos de mejora:** Finalmente, la variable de ubicación, aunque incorporada mediante clusterización, podría beneficiarse de un tratamiento alternativo que permita capturar de manera más precisa su correlación con el estrato y el precio, lo que abre la puerta a futuros ajustes basados en zonificación geográfica, categorización socioespacial o enriquecimiento con fuentes externas.
 
 **Conclusión**
 
