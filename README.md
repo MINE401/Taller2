@@ -34,7 +34,7 @@ Todo el proceso esta detallado paso por paso en el Jupyter Notebook [taller2.ipy
 
 
 
-## Ejecutar el notebook `Taller1.ipynb`
+## Ejecutar el notebook `taller2.ipynb`
 
 Sigue estos pasos para ejecutar el notebook de forma interactiva o automática.
 
